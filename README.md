@@ -20,8 +20,9 @@ In this work, we address the problem of skin cancer classification using convolu
 
 ## Result
 ### Confusion matrix
-array([[304,  56],
-       [ 36, 264]])
+[[304,  56],
+
+ [ 36, 264]]
        
 ### Classification report
               precision    recall  f1-score   support
@@ -30,8 +31,6 @@ array([[304,  56],
            1       0.82      0.88      0.85       300
 
     accuracy                           0.86       660
-   macro avg       0.86      0.86      0.86       660
-weighted avg       0.86      0.86      0.86       660
 
 ## Image Manipulation (ImageDataGenerator)
 Its usually a good idea to manipulate the images with rotation, resizing, and scaling so the model becomes more robust to different images that our data set doesn't have. We can use the ImageDataGenerator to do this automatically for us.
