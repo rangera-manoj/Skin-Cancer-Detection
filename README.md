@@ -20,9 +20,9 @@ In this work, we address the problem of skin cancer classification using convolu
 
 ## Result
 ### Confusion matrix
-[[304,  56],
+array([[304,  56],
 
- [ 36, 264]]
+       [ 36, 264]])
        
 ### Classification report
               precision    recall  f1-score   support
